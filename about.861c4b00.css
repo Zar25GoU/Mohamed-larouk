@@ -1,0 +1,213 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Markazi+Text:wght@400;700&family=Oleo+Script+Swash+Caps&display=swap');
+
+:root{
+  --padding-primery : 18px;
+  --color-primery : #4674b8;
+  /* --color-secandary : #325486; */
+/*   --color-primery : hsl(0, 69%, 61%);*/
+  --color-secandery : #325486; 
+  --color-black: #111;
+  --height-primery : 60px;
+  --color-white : #fff;
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }  
+
+h1 {
+    font-size: 40px;
+  }
+  
+p {
+    font-weight: 30px;
+  }
+
+  body{
+    background-color:  var(--color-primery);
+  }
+
+  .about-me{
+    background-color: var(--color-secandery);
+    border-radius: 27px;
+    filter:  drop-shadow(10px 10px 10px var(--color-black));
+    margin: 35px 10px 100px 10px;
+    font-size: 30px;
+    padding: 20px;
+    /* color: var(--color-white); */
+  }
+
+  .about-me h1{
+    color: var(--color-white);
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .about-me p{
+    text-align: center;
+
+  }
+
+  
+
+  .social-media{
+    background-color: var(--color-secandery);
+    border-radius: 27px;
+    filter:  drop-shadow(10px 10px 10px var(--color-black));
+    display: grid;
+    margin: 35px 10px 100px 10px;
+    font-size: 30px;
+  }
+  
+  .social-media a{
+    text-decoration: none;
+    filter:  drop-shadow(10px 10px 10px var(--color-black));
+    color: var(--color-black);
+    margin: 10px 20px;
+  }
+  
+  @media screen and (min-width:973px){
+    .social-media{
+      filter: drop-shadow(10px 10px 10px var(--color-black));
+      background-color: var(--color-primery);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 900px;
+      margin: 0 auto;
+      margin-top: 35px;
+      margin-bottom: 15px;
+      font-size: 32px;
+      border-radius: 20px;
+    }
+  
+    .social-media a{
+      display: flex;
+    }
+  }
+  
+
+
+
+
+  
+.footer{
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+/*     position: absolute;
+    bottom: 0;
+    left: 100px; */
+  }
+  
+  ::-webkit-input-placeholder{
+    color: var(--color-white);
+  }
+  
+  /* textarea {
+    color: var(--color-white);
+  } */
+  
+  .footer form{
+    background-color: var(--color-secandery);
+    filter: drop-shadow(3px -5px 5px var(--color-black));
+    height: 100%;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    position: relative;
+  }
+  
+  .footer form .name{
+    background-color: var(--color-primery);
+    color: var(--color-white);
+    filter: drop-shadow(3px 5px 5px var(--color-black));
+    border: none;
+    border-radius: 18px;
+    padding: 15px;
+    height: 40px;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 10%;
+  }
+  
+  .footer form .email{
+    background-color: var(--color-primery);
+    color: var(--color-white);
+    filter: drop-shadow(3px 5px 5px var(--color-black));
+    border: none;
+    border-radius: 18px;
+    padding: 15px;
+    height: 40px;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 20%;
+  }
+  
+  .footer form .msg{
+    background-color: var(--color-primery);
+    color: var(--color-white);
+    filter: drop-shadow(3px 5px 5px var(--color-black));
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 30%;
+    border: none;
+    border-radius: 18px;
+    padding: 15px;
+  }
+  
+  .footer form button{
+    background-color: var(--color-primery);
+    color: var(--color-white);
+    filter: drop-shadow(3px 5px 5px var(--color-black));
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 87%;
+    border: none;
+    border-radius: 18px;
+    height: 40px;
+  }
+  
+  @media screen and (max-width:820px){
+    .footer form .name{
+      position: absolute;
+      left: 20%;
+      right: 20%;
+      top: 10%;
+    }
+  
+    .footer form .email{
+      position: absolute;
+      left: 20%;
+      right: 20%;
+      top: 20%;
+    }
+  
+    .footer form .msg{
+      position: absolute;
+      left: 20%;
+      right: 20%;
+      top: 30%;
+    }
+  
+    .footer form button{
+      position: absolute;
+      left: 20%;
+      right: 20%;
+      top: 87%;
+    }
+  }
+
+/*# sourceMappingURL=/about.861c4b00.css.map */
